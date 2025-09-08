@@ -1,0 +1,17 @@
+.charts-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; /* space between charts */
+  margin: 30px;
+  
+}
+
+/* Each chart container */
+.charts-wrapper > div {
+  flex: 1; /* both take equal space */
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: var(--shadow);;
+}
